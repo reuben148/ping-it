@@ -11,7 +11,7 @@ function Card() {
     >
       {/* Header Title */}
       <p
-        className="text-center font-bold text-[#111827] leading-[40px]"
+        className="text-center font-bold text-[#111827] leading-[40px] mt-[122px]"
         style={{
           width: "862px",
           height: "44px",
@@ -40,7 +40,7 @@ function Card() {
       </p>
 
       {/* Cards Grid */}
-      <div className="bg-white min-h-screen flex items-center justify-center py-16 px-4">
+      <div className="bg-white min-h-screen flex items-center justify-center py-16 px-4 mt-[69px] mb-[86px]">
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-x-6 gap-y-6">
           {/* LEFT COLUMN */}
           <div className="flex flex-col gap-y-6">
