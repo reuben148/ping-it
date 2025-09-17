@@ -38,11 +38,8 @@ const PingItLanding = () => {
 
         {/* Heading */}
         <h1 className="mt-12 max-w-[903px] text-[3.75rem] leading-[3.75rem] font-extrabold text-black">
-          Never Miss an{" "}
-          <span className="text-black/70 block">
-            On-Chain <br /> Event
-          </span>{" "}
-          Again
+          Never Miss an On-Chain{" "}
+          <span className="text-black/70 block"> Event Again</span>
         </h1>
 
         {/* Subtext */}
@@ -55,9 +52,10 @@ const PingItLanding = () => {
         <button className="inline-flex mt-8 h-[47px] w-[225.31px] border border-black shadow-[3px_3px_0px_0px_black]">
           {/* Blue Part */}
           <div className="flex items-center justify-center w-[180px] h-full px-[29px] py-[15px] bg-[#1D4ED8]">
-            <span className="text-white font-medium text-base">
+            <span className="text-white font-medium text-base cursor-pointer transition hover:scale-[1.01]">
               Connect Wallet
             </span>
+            
           </div>
 
           {/* White Icon Part */}
