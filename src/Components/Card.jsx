@@ -120,11 +120,11 @@ function Card() {
                   </svg>
                 </div>
                 <h3 className="text-xl font-semibold text-[#111827] mb-2">
-                  Smart Notifications
+                  Multi-Wallet Support
                 </h3>
                 <p className="text-sm text-[#4B5563] leading-relaxed">
-                  Get alerts for on-chain events as they happen. Fully
-                  customizable and fast.
+                  Connect with MetaMask, Argent, Rabby, and other popular
+                  wallets. Seamless integration with your preferred wallet.
                 </p>
               </div>
 
@@ -132,9 +132,9 @@ function Card() {
               <hr className="my-6 border-t border-[#C4C4C4]" />
 
               {/* Bottom Item */}
-              <div>
+              <div className="mb-[50px]">
                 <div
-                  className="w-10 h-10 mb-4 rounded-md text-white flex items-center justify-center"
+                  className="w-10 h-10 mb-4 rounded-md text-white flex items-center justify-center "
                   style={{ backgroundColor: "#6366F1" }}
                 >
                   {/* Icon 2 */}
@@ -162,8 +162,10 @@ function Card() {
                   Gasless Setup
                 </h3>
                 <p className="text-sm text-[#4B5563] leading-relaxed">
-                  No gas fees required! Simply sign a message to confirm your
-                  subscription preferences.
+                  No gas fees required! Simply sign a <br></br> message to
+                  confirm your <br></br>subscription preferences. Quick and{" "}
+                  <br></br>
+                  cost-effective.
                 </p>
               </div>
             </div>
