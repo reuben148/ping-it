@@ -2,7 +2,7 @@ import React from "react";
 
 const PingItLanding = () => {
   return (
-    <div className="hidden lg:flex min-h-screen bg-[url('Background-image.png')] bg-cover bg-center flex-col items-center">
+    <div className="hidden lg:flex min-h-screen bg-[url('Background-image.png')] bg-[length:100%_100%] bg-no-repeat bg-center flex-col items-center">
       {/* Navbar */}
       <nav className="w-full max-w-[1306px] h-[47px] border border-black shadow-[3px_3px_0px_0px_black] mt-6 bg-white px-6" />
 
