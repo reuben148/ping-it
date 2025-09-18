@@ -4,7 +4,56 @@ const PingItLanding = () => {
   return (
     <div className="hidden lg:flex min-h-screen bg-[url('Background-image.png')] bg-[length:100%_100%] bg-no-repeat bg-center flex-col items-center">
       {/* Navbar */}
-      <nav className="w-full max-w-[1306px] h-[47px] border border-black shadow-[3px_3px_0px_0px_black] mt-6 bg-white px-6" />
+      <nav className="w-full max-w-[1306px] h-[47px] border border-black shadow-[3px_3px_0px_0px_black] mt-6 bg-white px-6 mx-auto flex items-center justify-between">
+        {/* Left Logo Section */}
+        <div className="flex h-[47px] px-[7.332px] pt-[9px] pb-[12px] pl-[3px] items-center bg-black text-white">
+          {/* Logo Icon */}
+          <div className="w-6 h-6 bg-white rounded-full flex items-center justify-center mr-2">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+            >
+              <path
+                d="M16 0C20.4183 0 24 3.58172 24 8V16C24 20.4183 20.4183 24 16 24H8C3.58172 24 0 20.4183 0 16V8C0 3.58172 3.58172 0 8 0H16Z"
+                fill="#FCFCFC"
+              />
+              <path
+                d="M16 0C20.4183 0 24 3.58172 24 8V16C24 20.4183 20.4183 24 16 24H8C3.58172 24 0 20.4183 0 16V8C0 3.58172 3.58172 0 8 0H16Z"
+                stroke="#E5E7EB"
+              />
+              <path
+                d="M12.1245 5C11.6405 5 11.2495 5.39102 11.2495 5.875V6.4C9.25338 6.80469 7.74947 8.57109 7.74947 10.6875V11.2016C7.74947 12.4867 7.27643 13.7281 6.4233 14.6906L6.22096 14.9176C5.99127 15.1746 5.93658 15.5437 6.07604 15.8582C6.21549 16.1727 6.52994 16.375 6.87447 16.375H17.3745C17.719 16.375 18.0307 16.1727 18.1729 15.8582C18.3151 15.5437 18.2577 15.1746 18.028 14.9176L17.8256 14.6906C16.9725 13.7281 16.4995 12.4895 16.4995 11.2016V10.6875C16.4995 8.57109 14.9956 6.80469 12.9995 6.4V5.875C12.9995 5.39102 12.6085 5 12.1245 5ZM13.3631 18.4887C13.6913 18.1605 13.8745 17.7148 13.8745 17.25H12.1245H10.3745C10.3745 17.7148 10.5577 18.1605 10.8858 18.4887C11.2139 18.8168 11.6596 19 12.1245 19C12.5893 19 13.035 18.8168 13.3631 18.4887Z"
+                fill="black"
+              />
+            </svg>
+          </div>
+          <span className="font-semibold">Ping It</span>
+        </div>
+
+        {/* Center Links */}
+        <div className="flex items-center space-x-8 text-gray-700">
+          <a href="#features" className="hover:text-black">
+            Features
+          </a>
+          <a href="#how-it-works" className="hover:text-black">
+            How It Works
+          </a>
+          <a
+            href="#dashboard"
+            className="text-blue-600 font-medium hover:underline"
+          >
+            Dashboard
+          </a>
+        </div>
+
+        {/* Right Button */}
+        <div className="bg-blue-600 px-6 py-2 text-white font-medium cursor-pointer hover:bg-blue-700">
+          Launch App
+        </div>
+      </nav>
 
       {/* Main Content */}
       <main className="flex flex-col items-center justify-center flex-grow w-full max-w-[1306px] px-6 text-center">
