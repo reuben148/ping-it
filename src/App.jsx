@@ -5,10 +5,10 @@ import BackgroundImage from "./assets/Background-image.png";
 
 function App() {
   return (
-    <div>
-      {/* Navbar + Hero with background */}{" "}
+    <div className="w-full min-h-screen bg-white">
+      {/* Background with Navbar */}
       <div
-        className="w-[1440px] h-[806px] shrink-0 bg-cover bg-center"
+        className="relative w-full h-[806px] bg-cover bg-center"
         style={{
           backgroundImage: `url(${BackgroundImage})`,
           aspectRatio: "134 / 75",
@@ -16,8 +16,13 @@ function App() {
       >
         <Navbar />
       </div>
-      {/* Other sections */}
-      <Hero />
+
+      {/* Hero overlaps background */}
+      <div className="relative -mt-40 z-10">
+        <Hero />
+      </div>
+
+      {/* Rest of sections */}
       <Card />
       <Button />
       <Features />
