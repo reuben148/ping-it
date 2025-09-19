@@ -206,7 +206,7 @@ function Overview() {
             </div>
 
             <div className="flex items-center space-x-3">
-              <button className="flex items-center space-x-2 px-3 py-2 border border-gray-300 rounded-lg text-sm">
+              <button className="cursor-pointer flex items-center space-x-2 px-3 py-2 border border-gray-300 rounded-lg text-sm">
                 <span>Last 7 days</span>
                 {/* ChevronDown icon SVG placeholder */}
                 <svg
@@ -224,7 +224,7 @@ function Overview() {
                   />
                 </svg>
               </button>
-              <button className="flex items-center space-x-2 px-4 py-2 bg-blue-600 text-white rounded-lg text-sm">
+              <button className="cursor-pointer flex items-center space-x-2 px-4 py-2 bg-blue-600 text-white rounded-lg text-sm">
                 {/* Download icon SVG placeholder */}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
